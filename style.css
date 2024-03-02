@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* Weights: 400, 600, 700 */
+:root {
+    --primary: hsl(15, 83%, 65%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    background-color: var(--Off-Black);
+    color: var(--White);
+    font-family: "Inter", sans-serif;
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.card-profile {
+    text-align: center;
+    background-color: var(--Dark-Grey);
+    max-width: 400px;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
+.img-profile {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+.title-name {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+.address {
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 18px;
+    gap: 15px;
+}
+.social-links a {
+    text-decoration: none;
+    color: var(--White);
+    background-color: var(--Grey);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.social-links a:hover {
+    color: var(--Dark-Grey);
+    background-color: var(--primary);
+}
