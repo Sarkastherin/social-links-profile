@@ -38,6 +38,9 @@ body {
     border-radius: 50%;
     margin: 25px auto;
 }
+.img-profile img {
+    width: 100%;
+}
 .title-name {
     font-weight: 500;
     font-size: 1.5rem;
